@@ -1,0 +1,7 @@
+def fibbonaci(num):
+    if num <= 2:
+        return 1
+    return fibbonaci(num-1)+fibbonaci(num-2)
+
+number=int(input('Please enter a number: '))
+print("Fibonacci[",number,"]=",fibbonaci(number))
